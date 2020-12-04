@@ -10,53 +10,69 @@
         android:id="@+id/button_lb1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="549dp"
+        android:layout_marginBottom="134dp"
         android:text="Press me"
+        android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tv1_lb1"
-        app:layout_constraintVertical_bias="0.642" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
 
     <TextView
         android:id="@+id/tv1_lb1"
-        android:layout_width="86dp"
-        android:layout_height="17dp"
+        android:layout_width="117dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="398dp"
+        android:layout_marginBottom="301dp"
         android:text="1.Проверка нажатия"
-        app:layout_constraintBottom_toTopOf="@+id/button_lb1"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tv4_lv3" />
-
-    <TextView
-        android:id="@+id/tv2_lb2"
-        android:layout_width="409dp"
-        android:layout_height="36dp"
-        android:text="2.Место нажатия"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/tv3_lb2"
+        android:id="@+id/tv2_lb2"
         android:layout_width="409dp"
-        android:layout_height="45dp"
+        android:layout_height="36dp"
         android:layout_marginTop="1dp"
-        android:text="2.Тоже место "
+        android:layout_marginBottom="694dp"
+        android:text="2.Место нажатия"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tv2_lb2" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/tv4_lv3"
-        android:layout_width="174dp"
-        android:layout_height="48dp"
-        android:text="3.Тип действия"
-        app:layout_constraintBottom_toTopOf="@+id/tv1_lb1"
+        android:id="@+id/tv2_lb2_2"
+        android:layout_width="409dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="37dp"
+        android:layout_marginBottom="649dp"
+        android:text="2.Тоже место "
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tv3_lb2" />
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv3_lv2"
+        android:layout_width="174dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="216dp"
+        android:layout_marginBottom="467dp"
+        android:text="3.Тип действия"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
