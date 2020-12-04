@@ -26,7 +26,19 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         textView1_lb1 = (TextView) findViewById(R.id.tv1_lb1);
         button_click_lb1 = (Button) findViewById(R.id.button_lb1);
+        button_click_lb1.setOnClickListener(new Button.OnClickListener() {
+            public void onClick(View view) {
+                textView1_lb1.setText("Button clicked");
+            }
+        });
 
+        button_click_lb1.setOnLongClickListener(new Button.OnLongClickListener() {
+            public boolean onLongClick(View view) {
+                textView1_lb1.setText("Long button click");
+                return false;
+            }
+        });
+        
         textView2_lb2 = (TextView) findViewById(R.id.tv2_lb2);
         textView2_lb22 = (TextView) findViewById(R.id.tv2_lb2_2);
 
