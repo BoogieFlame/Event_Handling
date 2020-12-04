@@ -7,10 +7,56 @@
     tools:context=".MainActivity">
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/button_lb1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button"
-        tools:layout_editor_absoluteX="204dp"
-        tools:layout_editor_absoluteY="450dp" />
+        android:text="Press me"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv1_lb1"
+        app:layout_constraintVertical_bias="0.642" />
+
+    <TextView
+        android:id="@+id/tv1_lb1"
+        android:layout_width="86dp"
+        android:layout_height="17dp"
+        android:text="1.Проверка нажатия"
+        app:layout_constraintBottom_toTopOf="@+id/button_lb1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv4_lv3" />
+
+    <TextView
+        android:id="@+id/tv2_lb2"
+        android:layout_width="409dp"
+        android:layout_height="36dp"
+        android:text="2.Место нажатия"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv3_lb2"
+        android:layout_width="409dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="1dp"
+        android:text="2.Тоже место "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv2_lb2" />
+
+    <TextView
+        android:id="@+id/tv4_lv3"
+        android:layout_width="174dp"
+        android:layout_height="48dp"
+        android:text="3.Тип действия"
+        app:layout_constraintBottom_toTopOf="@+id/tv1_lb1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv3_lb2" />
 </androidx.constraintlayout.widget.ConstraintLayout>
